@@ -31,7 +31,7 @@ let wavingImage;
 
 function preload() {
   bg = loadImage('streets2.jpg');         // background image
-  fist = loadImage('https://cdn.glitch.global/1365b79c-345c-49b9-b676-dfa168038f35/Untitled-4.png?v=1749597501377');     // protest fist image
+  fist = loadImage('Untitled-4.png');     // protest fist image
   wavingImage = loadImage('streets.png'); // waving flag image
 
   flowers.push(loadImage('r.png'));
@@ -64,7 +64,7 @@ function draw() {
   push();
   translate(0, 0, -1);
   texture(bg);
-  plane(700, 500);
+  plane(900, 700);
   pop();
 
   // Draw floating flowers
