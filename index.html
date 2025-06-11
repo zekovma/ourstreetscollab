@@ -48,7 +48,7 @@ function setup() {
       img: random(flowers),
       x: random(-width / 2, width / 2),
       y: random(-height / 2, height / 2),
-      size: random(150, 180),
+      size: random(200, 240),
       speedX: random(-0.5, 0.5),
       speedY: random(-0.2, 0.2),
       floatOffset: random(TWO_PI)
@@ -64,7 +64,7 @@ function draw() {
   push();
   translate(0, 0, -1);
   texture(bg);
-  plane(width * 1.2, height * 1.2);
+  plane(1100,900);
   pop();
 
   // Draw floating flowers
